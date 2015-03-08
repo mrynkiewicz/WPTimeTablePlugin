@@ -1,0 +1,136 @@
+/*
+ * 
+ */
+
+#myTable {
+	width: 100%;
+	font-family: Verdana,Arial,sans-serif;
+    font-size: 0.8em;
+    padding: 0px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.ui-widget {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 0.8em;
+}
+
+.ui-widget-content {
+    background: #F9F9F9;
+    border: 1px solid #90d93f;
+    color: #222222;
+}
+
+.ui-dialog {
+    left: 0;
+    outline: 0 none;
+    padding: 0 !important;
+    position: absolute;
+    top: 0;
+}
+
+.ui-dialog .ui-dialog-content {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    overflow: auto;
+    position: relative;
+    padding: 0 !important;
+}
+
+.ui-widget-header {
+    background: #b0de78;
+    border: 0;
+    color: #000;
+    font-weight: normal;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    padding: 0.1em .5em;
+    position: relative;
+        font-size: 1em;
+}
+
+.no-close .ui-dialog-titlebar-close {
+display: none;
+}
+
+input[type="text"] {
+	font-family: Verdana,Arial,sans-serif;
+    font-size: 0.8em;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+input[type="submit"], input[type="button"] {
+	font-family: Verdana,Arial,sans-serif;
+    font-size: 0.8em;
+	color: #000000;
+    background: #dfe3e6;
+    border: 1px solid black;
+}
+
+div.hour, div.day {
+	font-family: Verdana,Arial,sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+
+div.smaller {
+	width: 80%;
+	margin: 10px auto 10px auto;
+}
+
+div.buttons {
+	text-align: center;
+}
+
+table.plugin-table {
+	border: 1px solid #999;
+	border-collapse: collapse;
+	font-family: Georgia, Times, serif;
+	font-size: 0.8em;
+	line-height: 1.2em;
+}
+
+.plugin-table td.hours-column {
+	border: 1px solid #999;
+	height: 5em;
+	width: 5em;
+	padding: 0px;
+	font-size: 1em;
+	text-align: center;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.plugin-table td.event-desc {
+	border: 1px solid #999;
+	font-family: Verdana,Arial,sans-serif;
+	height: 5em;
+	max-height: 5em;
+	width: 5em;
+	max-width: 5em;
+	padding: 5px;
+	vertical-align: top;
+	overflow: hidden;
+	word-break: break-word;
+}
+
+.plugin-table th.plugin-table {
+	background-color: #e5e5e5;
+	border: 1px solid #999;
+	text-align: center;
+}
+
+#ToolTipDiv {
+	background-color: Yellow;
+	font-family: Arial; 
+	display: none; 
+	padding-left: 5px;
+	font-size: 1em;
+	line-height: 1.2em;
+	width: 20%; 
+	position: absolute;
+}
